@@ -10,11 +10,12 @@ class Program
 
         foreach (int n in numbers)
         {
-        sum += n;
+            sum += n;
         }
 
-Console.WriteLine("Sum: " + sum);
-        
-        Console.WriteLine("Numbers loaded.");
+        double average = (double)sum / numbers.Length;
+
+        Console.WriteLine("Sum: " + sum);
+        Console.WriteLine("Average: " + average);
     }
 }
