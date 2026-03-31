@@ -17,7 +17,7 @@ class Program
         int min = FindMin(numbers);
         int max = FindMax(numbers);
 
-        Console.WriteLine("Sum: " + sum);
+        Console.WriteLine("TOTAL SUM = " + sum);
         Console.WriteLine("Average: " + average);
         Console.WriteLine("Min: " + min);
         Console.WriteLine("Max: " + max);
